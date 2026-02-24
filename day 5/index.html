@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- kolom or grid -->
+    <!-- <div class="container mt-5">
+
+    <h2 class="text-center mb-4">bootstrap grid basic</h2>
+
+    <div class="row">
+        <div class="col bg-primary text-white p-3">
+            Column 1</div>
+        <div class="col bg-success text-white p-3">
+            Column 2</div>
+        <div class="col bg-info text-white p-3">
+            Column 3</div>
+    </div>
+      
+    <img src="../day 4/coffee.jpg" class="img-fluid" alt="...">
+
+ </div> -->
+
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-primary text-white" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">VyastiNet</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Dashboard CCTV</a></li>
+                            <li><a class="dropdown-item" href="#">Laporan</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- hero -->
+    <section class="bg-light py-5" style="background: url('bar 2.jpg') center/cover
+no-repeat; height: 400px;">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold text-white">Welcome to VyastiNetwork</h1>
+            <p class="lead mt-3 text-white">Your one-stop solution for all your networking needs.</p>
+            <a href="#" class="btn btn-primary btn-lg">Get Started</a>
+        </div>
+    </section>
+
+    <h1 class="text-center mt-5">about us</h1>
+    
+    <!-- ini ke about -->
+    <section id="about">
+        <p class="text-center">halo selamat datang di website kami, VyastiNetwork menyedia berbagai layanan jaringan
+            komputer dan keamanan CCTV.</p>
+    </section>
+
+
+    <!-- img thumbnail direktur -->
+    <section class="container">
+        <h1 class="text-center mt-5">Our Leadership Team</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-4 d-flex justify-content-center gap-4 mt-5">
+
+                <figure class="figure">
+                    <img src="pp.jpg" class="figure-img img-fluid rounded border border-2 border-dark" alt="...">
+                    <figcaption class="figure-caption fs-4 text-center">sekretaris</figcaption>
+                    <p>syahirah aby</p>
+                </figure>
+
+                <figure class="figure">
+                    <img src="pp.jpg" class="figure-img img-fluid rounded border border-2 border-dark" alt="...">
+                    <figcaption class="figure-caption fs-4 text-center">direktur</figcaption>
+                    <p>syehand aby</p>
+                </figure>
+
+                <figure class="figure">
+                    <img src="pp.jpg" class="figure-img img-fluid rounded border border-2 border-dark" alt="...">
+                    <figcaption class="figure-caption fs-4 text-center">wakil direktur</figcaption>
+                    <p>ilhand aby</p>
+                </figure>
+
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- card -->
+    <h1 class="text-center mt-5">Our Services</h1>
+    <section class="d-flex flex-wrap justify-content-center gap-4 mt-5">
+        <div class="card p-2" style="width: 18rem;">
+            <img src="cctv-camera (1).webp" class="card-img-top" alt="..." style="width: auto; height: 150px;">
+            <div class="card-body">
+                <h5 class="card-title">CCTV Camera</h5>
+                <p class="card-text">sistem kamera pengawas yang merekam aktivitas di area tertentu dan mengirimkan
+                    sinyal video ke monitor atau perekam khusus, bukan disiarkan publik.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+        <div class="card p-2" style="width: 18rem;">
+            <img src="wifi.jpg" class="card-img-top" alt="..." style="width: auto; height: 150px;">
+            <div class="card-body">
+                <h5 class="card-title">WiFi Network</h5>
+                <p class="card-text">WiFi memfasilitasi pertukaran data dan konektivitas internet melalui router. </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+        <div class="card p-2" style="width: 18rem;">
+            <img src="tiang-listrik-11-scaled.jpg" class="card-img-top" alt="..." style="width: auto; height: 150px;">
+            <div class="card-body">
+                <h5 class="card-title">Power Supply</h5>
+                <p class="card-text">perangkat vital yang mengubah arus listrik bolak-balik (AC) dari sumber utama (PLN)
+                    menjadi arus searah (DC) tegangan rendah yang stabil untuk komponen elektronik, terutama komputer
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
+
+    </section>
+    <!-- foto yang bisa nge slide -->
+
+    <section>
+        <div class="container py-5">
+            <div class="row justify-content-center mb-5">
+                <div class="col-md-8">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="bar.jpg" class="d-block w-50" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="bar 2.jpg" class="d-block w-50" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="coffee 2.jpg" class="d-block w-50" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+    <!-- ceritanya ini komentar dri cust -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card shadow-sm p-4">
+                        <h4 class="mb-3 text-center">contact form</h4>
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <input type="text" class="form-control" id="message" placeholder="Enter your message">
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <!-- link bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

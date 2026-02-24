@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #nama {
+            color: black;
+        }
+
+        #nama:hover {
+            color: rgb(187, 114, 45);
+        }
+    </style>
+
+</head>
+<body>
+    
+
+    <!-- <h1 id="judul">ini id judul</h1>
+    <h1 class="judul">ini class judul</h1>
+    <h2>ini sub judul</h2>
+    <h1 id="nama">ini namanya hira </h1> -->
+
+    <h1 id="hasil" style="color: blue;">hasil nama</h1>
+
+
+
+    <script>
+
+     let nama = prompt("masukkan nama kamu:");
+    
+    for (let i = 1; i <= 10; i++) {
+             document.getElementById("hasil").innerHTML += i + ". halo " + nama + "<br>";
+
+            }
+
+
+
+
+        // // DOM Manipulation
+        // document.getElementById("judul").style.color = "blue";
+        // document.getElementById("judul").innerHTML = "judul telah diubah";
+        // document.getElementById("judul").addEventListener("click", function() {
+        //          alert("judul di klik"); });
+
+        // document.getElementsByClassName("judul")[0].style.fontSize = "40px";
+        // document.getElementsByTagName("h2")[0].style.backgroundColor = "yellow";
+
+
+        // // klo lwt variabel biar tulisnya gk panjang
+        // const judul = document.getElementById("judul");
+        // judul.style.color = "blue";
+        // judul.innerHTML = "judul telah diubah";
+        // // judul.addEventListener("click", function() {
+        // //          alert("judul di klik"); });
+        // judul.addEventListener("dblclick", function() {
+        //          alert("judul di klik dua kali"); });
+
+    //    nama
+    //    const nama = document.getElementById("nama");
+    //    nama.addEventListener("mouseover", function() {
+    //             nama.style.color = "pink";
+    //    });
+
+    //    function ubahWarnaNama() {
+    //     nama.style.color = "black";
+    //    }
+    //     nama.addEventListener("mouseout", ubahWarnaNama);
+
+//   let array_buah = ["mangga", "pisang", "apel", "jeruk"];
+//   console.log(array_buah);
+//   array_buah.push("semangka");
+//   console.log(array_buah);
+//   array_buah.pop();
+//   console.log(array_buah);                                                
+
+
+//   let siswa = {
+//     nama: "udin",
+//     umur: 10,
+//     kelas: "5 sd"
+//     };
+
+//     // console.log(siswa);
+//     // console.log("nama siswa: " , siswa.nama);
+//     console.log(siswa);
+    
+
+    // function cekUmur(umur) {
+    //     if (umur >= 20) {
+    //         alert(" sudah dewasa");
+    //     } else {
+    //         alert(" anak anak");
+    //     }
+    // }
+    // cekUmur(21);
+
+
+    // let array_nama = ["hira", "kira", "sya", "gar", "ia"];
+    // console.log(array_nama);
+    // array_nama.push("nova");
+    // console.log(array_nama);
+    // array_nama.pop();
+    // console.log(array_nama);
+
+    </script>
+
+
+
+
+    
+</body>
+</html>
